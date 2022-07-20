@@ -1,4 +1,3 @@
-
 " COC """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:coc_global_extensions = ['coc-snippets', 'coc-explorer', 'coc-html', 'coc-tsserver', 'coc-css', 'coc-pyright' ]
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
@@ -167,5 +166,3 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
-

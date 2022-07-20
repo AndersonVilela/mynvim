@@ -1,6 +1,5 @@
-
-" Coc Explorer """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-:nnoremap <space>e :CocCommand explorer<CR>
+vim.cmd([[ 
+:nnoremap ne :CocCommand explorer<CR>
 
 let g:coc_explorer_global_presets = {
 \   '.vim': {
@@ -53,4 +52,4 @@ nnoremap <space>ec :CocCommand explorer --preset cocConfig<CR>
 nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
 
 " List all presets
-nnoremap <space>el :CocList explPresets
+nnoremap <space>el :CocList explPresets]])
