@@ -18,6 +18,12 @@ map("n", "<A-j>", "<C-w>j", {})
 map("n", "<A-k>", "<C-w>k", {})
 map("n", "<A-l>", "<C-w>l", {})
 
+-- Create Split
+map("n", "th", ":split<CR>", {})
+map("n", "tv", ":vsplit<CR>", {})
+map("n", "tt", ":q<CR>", {})
+map("n", "t1", ":q!<CR>", {})
+
 -- Resize current buffer by +/- 2
 map("n", "<C-h>", ":vertical resize +2<cr>", {})
 map("n", "<C-j>", ":resize +2<cr>", {})
